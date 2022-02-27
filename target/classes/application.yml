@@ -1,0 +1,21 @@
+# 应用名称
+spring:
+  application:
+   name: Tim
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/tim?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
+  redis:
+    host: 101.132.45.41
+    port: 6379
+    database: 0
+    password: lxc20010716
+
+# 应用服务 WEB 访问端口
+server:
+   port: 8081
+
+
+
